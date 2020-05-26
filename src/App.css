@@ -1,0 +1,50 @@
+html{
+  line-height: 1.5;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Inter var,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  text-decoration: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.bottom-32 {
+  bottom: -32px;
+}
+
+select:required:invalid {
+  color: hsl(214, 21%, 69%);
+}
+
+input[type=date]:invalid::-webkit-datetime-edit {
+  color: hsl(214, 21%, 69%);
+}
